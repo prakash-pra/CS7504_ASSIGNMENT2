@@ -50,10 +50,13 @@
     <div>
         @RenderBody()
     </div>
+    @if (url != "/")
+    {
     <hr />
     <footer>
         <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
     </footer>
+    }
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @Scripts.Render("~/bundles/jqueryval")
