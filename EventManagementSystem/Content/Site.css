@@ -16,7 +16,7 @@ body {
 .header {
     height: 70vh;
     /* At every point, the height of this box, of this element should be 95% of the viewpoint height*/
-    background-image: linear-gradient(to right bottom, rgb(220, 20, 60,0.8), rgb(46.246, 67.191, 27.433,0.8)), url(Images/office.jpg);
+    background-image: linear-gradient(to right bottom, rgb(255,192,203,0.8), rgb(46.246, 67.191, 27.433,0.8)), url(Images/office.jpg);
     background-size: cover;
     background-position: bottom;
     padding: 30px;
